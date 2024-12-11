@@ -14,8 +14,9 @@
 }
 .green {
   background-color: green;
-  transition: transform 1s;
+  transition: width 1s, height 1s;
 }
+
 .red:hover {
   width: 37vh;
   transition: width 1s;
@@ -25,5 +26,6 @@
   height: 37vh;
 }
 .green:hover {
-  transform: scale(1.3);
+  width: 40vh;
+  height: 40vh;
 }
