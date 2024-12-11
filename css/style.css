@@ -1,0 +1,29 @@
+.square {
+  width: 24vh;
+  height: 24vh;
+  margin: auto;
+  margin-bottom: 2vh;
+}
+.red {
+  background-color: red;
+  transition: width 1s;
+}
+.blue {
+  background-color: blue;
+  transition: height 1s;
+}
+.green {
+  background-color: green;
+  transition: transform 1s;
+}
+.red:hover {
+  width: 37vh;
+  transition: width 1s;
+}
+
+.blue:hover {
+  height: 37vh;
+}
+.green:hover {
+  transform: scale(1.3);
+}
